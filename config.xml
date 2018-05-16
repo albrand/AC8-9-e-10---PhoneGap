@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.hfmw.pubapp"
+        version   = "1.0">
+
+        <name>AC APP</name>
+
+        <description>App para AC8, 9 e 10</description>
+        <author href  ="https://albrand.github.io/"
+                email ="alex_brandizzi@hotmail.com" >
+                Alexandre Brandizzi Naime 
+        </author>
+
+        <icon src="beeeach_114x114.jpg" heigth="114" width="114"/>
+        <icon src="beeeach_72x72.jpg" heigth="72" width="72"/>
+</widget>

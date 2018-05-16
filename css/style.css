@@ -1,0 +1,15 @@
+.inv{
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.title{
+    border-top: 0.1em solid;
+    border-bottom: 0.1em solid;
+    margin: 0 10 0 10;
+}
+
+.title.ui-btn{
+    padding-top: -10px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<meta charset="UTF-8" />
+
+		<title>The 3 ACs</title> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<script src="./scripts/jquery-2.1.4.min.js"></script>
+		<script src="./scripts/jquery.mobile-1.4.5.min.js"></script>
+	</head> 
+
+	<body class="ui-mobile-viewport ui-overlay-c" cz-shortcut-listen="true"> 
+
+		<!-- Start of first page: #one -->
+		<div data-role="page" id="one" data-url="one" tabindex="0" class="ui-page ui-body-c ui-page-active">
+
+			<div data-role="header" class="ui-header ui-bar-a" role="banner">
+				<h1 class="ui-title" role="heading" aria-level="1">R6N!</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" class="ui-content" role="main">	
+				<h2>Rainbow Six News!</h2>
+				
+				<p>Bem vindo ao portal de notícias do Rainbow Six Siege!</p>	
+				<p></p>
+				<div class="title">
+					<img class="inv" src="./src/sixinvitational2018_306889.jpg" />
+					<a href="#two" data-role="content">
+						<h3>Pro-League</h3>
+						<p>Saiu a lista de classificados para a pro-league de 2018!</p>
+					</a>
+					<p>
+						<a href="#two" data-role="button" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" class="ui-btn ui-btn-up-c ui-shadow ui-btn-corner-all">
+							Ler mais
+						</a>
+					</p>
+				</div>
+			</div><!-- /content -->
+			<div data-role="content" class="ui-content">
+				<a href="#three" data-role="button" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" class="ui-btn ui-btn-up-c ui-shadow ui-btn-corner-all">
+					Sobre nós
+				</a>
+			</div>
+		</div><!-- /page one -->
+
+
+		<!-- Start of second page: #two -->
+		<div data-role="page" id="two" data-theme="a" data-url="two">
+
+			<div data-role="header">
+				<h1>Pro-League</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="a">	
+				<h2>Saiu a lista de classificados para a pro-league de 2018!</h2>
+				<p>
+					Depois de muita espera e muita empolgação, finalmente saiu a lista de times
+					que irá participar do Invitational de 2018:
+				</p>
+				<img class="inv" src="./src/12TeamsQualified_281981.jpg" />
+				<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Voltar para home</a></p>	
+				
+			</div><!-- /content -->
+		</div><!-- /page two -->
+
+		<div data-role="page" id="three" data-theme="a" data-url="three">
+
+			<div data-role="header">
+				<h1>Sobre nós</h1>
+			</div><!-- /header -->
+
+			<div data-role="content" data-theme="a">	
+				<p>
+					Somos um aplicativo desenvolvido para realizar as três últimas atividades da aula de Projeto e Design de Interface Mobile,
+					com o intuito de ganhar a nota máxima de acordo com o critério de avaliação do professor e passar de semestre.
+				</p>
+				<p>
+					Devido a limitação da tecnologia PhoneGap estar subutilizada por não oferecer boa performance
+					e pouco utilizada, a Adobe lança atualizações conforme demanda e não renovou a autorização do
+					website do PhoneGap desde 2016.
+				</p>
+				<p>
+					O PhoneGap utiliza o cordova como plataforma para realizar a montagem do APK. Basicamente, este
+					framework utiliza o navegador do celular para poder renderizar o programa, causando perda de
+					performance brusca em sua utilização, pois fica sob responsabilidade do navegador traduzir e
+					apresentar o aplicativo desenvolvido. Se torna basicamente um app que na verdade é reconhecido
+					como um website pelo celular.
+				</p>
+				<p>
+					A biblioteca do jQuery mobile é antiga e não possui muitas possibilidades de desenvolvimento
+					e animações, então possui também a sua limitação.
+				</p>
+				<p><a href="#one" data-direction="reverse" data-role="button" data-theme="b">Voltar para home.</a></p>	
+
+				<div data-role="footer" data-position="fixed" data-theme="b">
+					<h4>Copyright R6N 2018.</h4>
+				</div>
+			</div><!-- /content -->
+
+		</div><!-- /page two -->
+	</body>
+</html>
