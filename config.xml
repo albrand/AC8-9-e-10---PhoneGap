@@ -11,6 +11,10 @@
                 email ="alex_brandizzi@hotmail.com" >
                 Alexandre Brandizzi Naime 
         </author>
+        <author href  ="https://wilderpereira.me/"
+                email ="wilderegina@gmail.com" >
+                Wilder Pereira 
+        </author>
 
         <icon src="r6-114x114.png" heigth="114" width="114"/>
         <icon src="r6-72x72.png" heigth="72" width="72"/>
