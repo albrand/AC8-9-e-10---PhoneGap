@@ -12,6 +12,6 @@
                 Alexandre Brandizzi Naime 
         </author>
 
-        <icon src="r6_114x114.png" heigth="114" width="114"/>
-        <icon src="r6_72x72.png" heigth="72" width="72"/>
+        <icon src="r6-114x114.png" heigth="114" width="114"/>
+        <icon src="r6-72x72.png" heigth="72" width="72"/>
 </widget>
